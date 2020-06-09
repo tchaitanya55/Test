@@ -44,10 +44,10 @@ def mid1_marks():
         dict[l1[i]] = int(l2[i])
     # print(dict)
     marks_json = json.dumps(dict)
-    send_message(get_chat_id(update), marks_json)
+    return  marks_json
 
 
-url = "https://api.telegram.org/bot1225689665:AAE30R2XKLjs1zutn4lJMb6xqi_Z5lGK1RU/"
+url = "https://api.telegram.org/bot1232359370:AAEOoI4o76K05DKbAlJETmoyVISpakd-okg/"
 
 
 # create func that get chat id
